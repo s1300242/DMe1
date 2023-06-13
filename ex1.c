@@ -2,6 +2,14 @@
 #include<stdlib.h>
 #include<time.h>
 int main(){
+
+  
+  char name[8];
+  printf("Who are you?\n");
+  scanf("%s",name);
+  printf("Hello %s!\n",name);
+
+  
   int x;
   int tcount=0,hcount=0;
   int keep=1;
